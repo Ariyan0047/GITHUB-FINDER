@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #246CCF;
+  --secondary-color: #ddd;
+  --transparent-color: rgba(0, 0, 0, 65);
+  --secondary-color-section: #ccc;
+  --border-color: #333;
+}
+
+body {
+  background: var(--secondary-color-section);
+}
+
+body header {
+  padding: 0.4rem;
+  font-weight: 700;
+  background: var(--transparent-color);
+}
+
+body section {
+  text-transform: uppercase;
+}
+
+body section .container {
+  border: 0.2rem solid var(--border-color);
+  background: var(--secondary-color);
+}
+/*# sourceMappingURL=style.css.map */

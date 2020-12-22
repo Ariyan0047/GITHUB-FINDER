@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #246CCF;
+    --secondary-color: #ddd;
+    --transparent-color: rgba(0, 0, 0, 65);
+    --secondary-color-section: #ccc;
+    --border-color: #333;
+}
+
+body {
+    background: var(--secondary-color-section);
+
+    header {
+        padding: 0.4rem;
+        font-weight: 700;
+        background: var(--transparent-color);
+    }
+
+    section {
+        text-transform: uppercase;
+
+        .container {
+            border: 0.2rem solid var(--border-color);
+            background: var(--secondary-color);
+        }
+    }
+}
