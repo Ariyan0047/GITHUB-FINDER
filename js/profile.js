@@ -37,9 +37,9 @@ class Profile {
                 html += `
                 <div class="container p-1 m-4 mx-auto">
                     <h1 class="display-4 text-center text-muted">LATEST REPOSITORY<h1>
-                    <div class="row">
+                    <div class="row m-2">
                         <div class="col-md-6">
-                            <p class="text-muted p-4">REPO: ${repo.name}</p>
+                            <p class="text-muted">REPO: ${repo.name}</p>
                         </div>
                         <div class="col-md-6">
                             <span class="badge badge-info">STARS : ${repo.stargazers_count}</span>
