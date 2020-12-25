@@ -28,5 +28,16 @@ body {
             border: 0.2rem solid var(--border-color);
             background: var(--secondary-color);
         }
+
+        .badge {
+            font-size: 1.2rem;
+            padding: 0.8rem 0.4rem 0.8rem 0.4rem;
+            margin: 0.2rem;
+        }
+
+        .badge-info {
+            padding: 0.4rem;
+            margin: 0.4rem;
+        }
     }
 }
